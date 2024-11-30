@@ -1,0 +1,912 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8"/>
+      <!-- Title-->
+      <title>Amirreza Jabbari</title>
+      <!-- Description-->
+      <meta content="Personal Portfolio Template" name="description"/>
+      <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+      <!-- Favicons-->
+      <link href={% static "img/favicons/apple-touch-icon.png" %} rel="apple-touch-icon" sizes="180x180"/>
+      <link href={% static "img/favicons/favicon-32x32.png" %} rel="icon" sizes="32x32" type="image/png"/>
+      <link href={% static "img/favicons/favicon-16x16.png" %} rel="icon" sizes="16x16" type="image/png"/>
+      <!-- Web fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet"/>
+      <!-- CSS vendors-->
+      <link href={% static "css/bootstrap-custom.css" %} rel="stylesheet"/>
+      <link href={% static "css/ionicons.min.css" %} rel="stylesheet"/>
+      <link href={% static "css/tiny-slider.css" %} rel="stylesheet"/>
+      <link href={% static "css/lity.min.css" %} rel="stylesheet"/>
+      <link href={% static "css/simplebar.min.css" %} rel="stylesheet"/>
+      <!-- Main CSS-->
+      <link href={% static "css/main-en.css" %} rel="stylesheet"/>
+      <!-- CSS Color scheme-->
+      <link href={% static "css/colors/main-darkgreen.css" %} id="color-scheme" rel="stylesheet"/>
+   </head>
+   <body class="theme-dark">
+      <!-- Preloader-->
+      <div class="preloader">
+         <div class="preloader-block">
+            <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+         </div>
+      </div>
+      <div id="overlay-effect"></div>
+      <!-- Navbar-->
+      <nav class="navbar-expand-md navbar fixed-top" id="navbar">
+         <a class="navbar-brand" data-scroll="" href="#home-area">
+            <!-- Navbar Logo-->
+            <img alt="Logo" class="img-fluid" src={% static "img/1.png" %}/>
+         </a>
+         <span aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-menu ml-auto" data-target="#navbarSupportedContent" data-toggle="collapse" role="button"><span class="btn-line"></span></span>
+         <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+            <!-- Navbar menu-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">My resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact me</a></li>
+            </ul>
+         </div>
+      </nav>
+      <!-- Home-->
+      {% comment %} <section class="home-area element-cover-bg" id="home" style="background-image:url({% static "img/home.jpg" %})"> {% endcomment %}
+      <section class="home-area element-cover-bg" id="home">
+         <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+               <div class="col-12 col-lg-8 home-content text-center">
+                  <h1 class="home-name"><span style="color: #28a745;">&lt;&gt;</span>Amirreza Jabbari<span style="color: #28a745;">&lt;/&gt;</span></h1>
+                  <h2 class="cd-headline clip home-headline">Hello World!<span class="blinking-cursor">|</span></h2>
+                  <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b class="is-visible">Fullstack Developer</b><b>UI/UX Designer</b><b>Software Engineer</b><b>SEO Analyst</b><b>Application Developer</b></span></h4>
+                  <p class="cd-paragraph">
+                     <span style="color: #28a745;">&lt;p&gt;</span> 🌟 Web application dev skilled in Django, DRF, React.js, and postgresql, creating scalable web solutions and reliable digital experiences. 🚀💻 <span style="color: #28a745;">&lt;/p&gt;</span>
+                 </p>                 
+               </div>
+            </div>
+         </div>
+         <div class="fixed-wrapper">
+            <!-- Languages list-->
+            <div class="fixed-block block-left">
+               <ul class="list-unstyled languages-list">
+                  <li><a href="/fa/"><span class="single-language">FA</span></a></li>
+                  <li><a href="/en/"><span class="single-language">EN</span></a></li>
+               </ul>
+            </div>
+            <!-- Social media icons-->
+            <div class="fixed-block block-right">
+               <ul class="list-unstyled social-icons">
+                  <li><a href="mailto:Amirrezajabbari79@gmail.com"><i class="icon ion-android-mail"></i></a></li>
+                  <li><a href="https://t.me/MehrdadJ7" target="_blank" rel="noopener noreferrer"><i class="icon ion-paper-airplane"></i></a></li>
+                  <li><a href="#0"><i class="icon ion-social-linkedin"></i></a></li>
+                  <li><a href="https://github.com/Amirreza-Jabbari" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- About lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="about">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">Get to know me better.</p>
+                              <h2 class="section-title">About me</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Info section-->
+                     <div class="info-section single-section">
+                        <div class="row align-items-center">
+                           <!-- Picture part-->
+                           <div class="col-12 col-lg-5 info-img"><img alt="About Picture" class="img-fluid img-thumbnail" src={% static "img/software-engineer.jpg" %}/></div>
+                           <!-- Content part-->
+                           <div class="col-12 col-lg-7 info-content">
+                              <div class="content-block">
+                                <h2 class="content-subtitle">Introduction letter:</h2>
+                                <h6 class="content-title">I'm Amirreza Jabbari. Fullstack Dev and Application Engineer.</h6>
+                                 <div class="content-description">
+                                    <p>I am a creative and energetic individual with a deep passion for technology and design. In the fast-paced world of the web, I strive to create unparalleled user experiences by combining beautiful and functional designs. I am always seeking new challenges and projects that allow me to push the boundaries of innovation and deliver unique solutions that make digital life easier and more engaging.</p>
+                                 </div>
+                                 <address class="content-info">
+                                    <div class="row">
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>Name:</span>
+                                          <p>Amirreza Jabbari</p>
+                                       </div>
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>Email:</span>
+                                          <p><a href="mailto:Amirrezajabbari79@gmail.com">Amirrezajabbari79@gmail.com</a></p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>Age:</span>
+                                          <p>24</p>
+                                       </div>
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>Place of residence:</span>
+                                          <p>Piroozi, Tehran, Iran</p>
+                                       </div>
+                                    </div>
+                                 </address>
+                                 <div class="d-block d-sm-flex align-items-center">
+                                    <a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a>
+                                    <ul class="list-unstyled list-inline content-follow">
+                                       <li class="list-inline-item"><a href="mailto:Amirrezajabbari79@gmail.com"><i class="icon ion-android-mail"></i></a></li>
+                                       <li class="list-inline-item"><a href="https://t.me/MehrdadJ7" target="_blank" rel="noopener noreferrer"><i class="icon ion-paper-airplane"></i></a></li>
+                                       <li class="list-inline-item"><a href="#0" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-linkedin"></i></a></li>
+                                       <li class="list-inline-item"><a href="https://github.com/Amirreza-Jabbari" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Services section-->
+                     <div class="services-section single-section">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-heading" style="text-align:center;">
+                                    <p class="section-description">Skills and services offered to project managers</p>
+                                    <h2 class="section-title">Digital Services</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Single service-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-service">
+                                    <i class="icon service-icon ion-social-css3"></i>
+                                    <h6 class="service-title">Design</h6>
+                                    <p class="service-description">
+                                        From concept to reality, we create user-friendly and unique designs that turn into exceptional user experiences. Following design principles and focusing on details, we ensure high quality in every phase, from sketches to execution.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single service-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-service">
+                                    <i class="icon service-icon ion-images"></i>
+                                    <h6 class="service-title">Illustration & Graphics</h6>
+                                    <p class="service-description">
+                                        Captivating illustrations and graphics that tell your brand's story. From logo design to creating promotional banners, we deliver every graphic you need with precision and creativity.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single service-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-service">
+                                    <i class="icon service-icon ion-chatboxes"></i>
+                                    <h6 class="service-title">Support</h6>
+                                    <p class="service-description">
+                                        Reliable and efficient support to ensure the smooth operation of your projects and digital services. Whenever you need assistance, we're here to respond promptly to your needs.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single service-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-service">
+                                    <i class="icon service-icon ion-code-working"></i>
+                                    <h6 class="service-title">Web Application Development</h6>
+                                    <p class="service-description">
+                                        Building powerful and scalable web applications tailored to your business needs. From client-side to server-side development, we create stable and optimized solutions for you.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single service-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-service">
+                                    <i class="icon service-icon ion-android-desktop"></i>
+                                    <h6 class="service-title">Responsive Design</h6>
+                                    <p class="service-description">
+                                        Designing responsive websites that look perfect on all devices and screen sizes. We ensure a seamless user experience across mobile, tablet, and desktop.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single service-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-service">
+                                    <i class="icon service-icon ion-search"></i>
+                                    <h6 class="service-title">SEO (Search Engine Marketing)</h6>
+                                    <p class="service-description">
+                                        Boost your website's ranking on search engines with professional optimization strategies. We help you get noticed in search results and attract targeted traffic.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                     <!-- Testimonials section-->
+                     <div class="testimonials-section single-section">
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="section-heading" style="text-align:center;">
+                                <p class="section-description">Comments from employers and project managers</p>
+                                <h2 class="section-title">Consent letters</h2>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="my-slider">
+                           <div class="slider-item">
+                              <!-- Single review-->
+                              <div class="single-review swiper-slide">
+                                 <div class="review-header d-flex justify-content-between">
+                                    <div class="review-client">
+                                       <div class="media">
+                                       <img alt="Client" class="img-fluid rounded-circle client-avatar" src={% static "img/client-1.jpg"%}/>
+                                          <div class="client-details">
+                                             <h6 class="client-name">Ms.Mahboube Shamsi</h6>
+                                             <span class="client-role">Mentor</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <i class="icon ion-md-quote review-icon"></i>
+                                 </div>
+                                 <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <!-- Single review-->
+                              <div class="single-review swiper-slide">
+                                 <div class="review-header d-flex justify-content-between">
+                                    <div class="review-client">
+                                       <div class="media">
+                                          <img alt="Client" class="img-fluid rounded-circle client-avatar" src={% static "img/client-2.jpg"%}/>
+                                          <div class="client-details">
+                                             <h6 class="client-name">Mr.Mehran Nazari</h6>
+                                             <span class="client-role">Entrepreneur</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <i class="icon ion-md-quote review-icon"></i>
+                                 </div>
+                                 <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <!-- Single review-->
+                              <div class="single-review swiper-slide">
+                                 <div class="review-header d-flex justify-content-between">
+                                    <div class="review-client">
+                                       <div class="media">
+                                          <img alt="Client" class="img-fluid rounded-circle client-avatar" src={% static "img/client-3.jpg"%}/>
+                                          <div class="client-details">
+                                             <h6 class="client-name">Maria Wilson</h6>
+                                             <span class="client-role">Customer</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <i class="icon ion-md-quote review-icon"></i>
+                                 </div>
+                                 <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Resume lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="resume">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">My specialized resume</p>
+                              <h2 class="section-title">My CV</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Resume section-->
+                     <div class="resume-section single-section">
+                        <div class="row">
+                           <!-- Education part-->
+                           <div class="col-12 col-md-6">
+                              <div class="col-block education">
+                                 <h3 class="col-title">Education:</h3>
+                                 
+                                 <div class="resume-item">
+                                   <span class="item-arrow"></span>
+                                   <h5 class="item-title">Bachelor of Computer Engineering</h5>
+                                   <span class="item-details">Qom University of Technology / 2019 - 2024</span>
+                                   <p class="item-description"> During my undergraduate studies in Computer Engineering, I gained knowledge of foundational and advanced concepts in programming, networking, artificial intelligence, and system design. This experience provided me with a deep understanding of computer science and the technical skills required for large-scale projects. </p>
+                                 </div>
+                                 
+                                 <div class="resume-item">
+                                   <span class="item-arrow"></span>
+                                   <h5 class="item-title">English language diploma</h5>
+                                   <span class="item-details">Danesh English institute / 2013 - 2019</span>
+                                   <p class="item-description"> By completing an English Diploma course, I have advanced my communication and language skills to a proficient level. This program established a strong foundation in conversation and English comprehension, which is particularly valuable in international work environments. </p>
+                                 </div>
+                               </div>                               
+                              <div class="col-block education" style="margin-top: 20px;">
+                                 <h3 class="col-title">Top GitHub Repositories:</h3>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">SEO Analyzer</h5>
+                                    <span class="item-details"><a href="https://github.com/Amirreza-Jabbari/SEOAnalyzer" target="_blank" rel="noopener noreferrer">Project Access Link</a></span>
+                                    <p class="item-description">
+                                       The SEOAnalyzer class provides a comprehensive set of tools for analyzing and optimizing website SEO metrics. It focuses on various aspects of SEO, including page speed, content quality, link integrity, and social media presence. Designed and developed in Python.
+                                   </p>
+                                 </div>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">DNS Changer</h5>
+                                    <span class="item-details">
+                                        <a href="https://github.com/Amirreza-Jabbari/dns-changer" target="_blank" rel="noopener noreferrer">Project Access Link</a>
+                                    </span>
+                                    <p class="item-description">
+                                       The DNS Changer tool is a simple graphical application built using the Tkinter library in Python. It allows users to easily change their system's DNS settings. The application provides several predefined DNS options, and users can select their desired DNS from a dropdown menu to connect to the network. ON and OFF options are defined for enabling or disabling the DNS. Additionally, a button provides quick access to the creator's GitHub page (Amirreza Jabbari). This tool applies changes directly to network connections in Windows using netsh commands.
+                                   </p>
+                                </div>                                
+                                <div class="resume-item">
+                                 <span class="item-arrow"></span>
+                                 <h5 class="item-title">Speech-to-Text Converter</h5>
+                                 <span class="item-details">
+                                     <a href="https://github.com/Amirreza-Jabbari/en-fa-speech-recognition" target="_blank" rel="noopener noreferrer">Project Access Link</a>
+                                 </span>
+                                 <p class="item-description">
+                                    This project is a speech-to-text tool implemented using JavaScript and the Web Speech API. Users can select their desired language (English or Persian) and start speaking by pressing the respective button. The program converts speech to text in real-time and displays the output instantly.
+                                 </p>
+                                 </div>                                                          
+                              </div>
+                           </div>
+                           <!-- Experience part-->
+                           <div class="col-12 col-md-6">
+                              <div class="col-block experience">
+                                  <h3 class="col-title">Experience</h3>
+                                  <div class="resume-item">
+                                      <span class="item-arrow"></span>
+                                      <h5 class="item-title">First Place Winner at Kharazmi Festival</h5>
+                                      <span class="item-details">Kharazmi Festival / 2015-2016-2017-2018</span>
+                                      <p class="item-description">
+                                          Achieved first place in the Tehran Province three consecutive times at the Khwarizmi Festival with projects titled Ninth-Grade Educational Software, Tenth-Grade Educational Software, and Eleventh-Grade Educational Software. Desktop programming projects were developed using Pascal.
+                                      </p>
+                                  </div>
+                                  <div class="resume-item">
+                                      <span class="item-arrow"></span>
+                                      <h5 class="item-title">WordPress Bootcamp</h5>
+                                      <span class="item-details">Chakavak-e Shahr / Summer 2023</span>
+                                      <p class="item-description">
+                                          Specialized training in WordPress, website design using Elementor, and WooCommerce, with a recognized certificate from the training institute.
+                                      </p>
+                                  </div>
+                                  <div class="resume-item">
+                                      <span class="item-arrow"></span>
+                                      <h5 class="item-title">SEO Bootcamp</h5>
+                                      <span class="item-details">Chakavak-e Shahr / Summer 2023</span>
+                                      <p class="item-description">
+                                          Specialized training in search engine marketing and technical SEO, with a recognized certificate from the training institute.
+                                      </p>
+                                  </div>
+                                  <div class="resume-item">
+                                      <span class="item-arrow"></span>
+                                      <h5 class="item-title">Django Backend Bootcamp</h5>
+                                      <span class="item-details">Sajaya Plus / Summer 2024</span>
+                                      <p class="item-description">
+                                          Specialized project-based training in Django and Django REST Framework (DRF) with a certificate from Iran University of Science and Technology.
+                                      </p>
+                                  </div>
+                                  <div class="resume-item">
+                                      <span class="item-arrow"></span>
+                                      <h5 class="item-title">University Attendance System</h5>
+                                      <span class="item-details">Qom University of Technology / Fall 2024</span>
+                                      <p class="item-description">
+                                          Designed and implemented an attendance automation system for students and professors as a final project using the Django stack, Bootstrap, jQuery, and MySQL.
+                                      </p>
+                                  </div>
+                                  <div class="resume-item">
+                                      <span class="item-arrow"></span>
+                                      <h5 class="item-title">Design and Development of <a href="https://mehranstone8.ir" target="_blank" rel="noopener noreferrer">Mehran Stone</a> E-commerce Website</h5>
+                                      <span class="item-details">Freelance Project / Fall 2024</span>
+                                      <p class="item-description">
+                                          Designed and developed a full-stack e-commerce website project using Django, DRF API, Bootstrap, jQuery, and PostgreSQL from scratch.
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                     </div>
+                     <!-- Skills section-->
+                     <div class="skills-section single-section">
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="section-heading" style="text-align:center;">
+                                 <p class="section-description">My knowledge level of some tools and libraries</p>
+                                 <h2 class="section-title">My skills:</h2>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12 col-md-6">
+                              <div class="single-skill" data-percentage="95">
+                                 <div class="skill-info"><span class="skill-name">HTML/CSS</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="90">
+                                 <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="70">
+                                 <div class="skill-info"><span class="skill-name">TypeScript</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="85">
+                                 <div class="skill-info"><span class="skill-name">Django/Django Rest API</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="85">
+                                 <div class="skill-info"><span class="skill-name">XML/JSON/Postman</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="85">
+                                 <div class="skill-info"><span class="skill-name">Web Design/Ui-Ux/SEO</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6">
+                              <div class="single-skill" data-percentage="70">
+                                 <div class="skill-info"><span class="skill-name">Tailwind/sass</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="80">
+                                 <div class="skill-info"><span class="skill-name">bootstrap/JQuery</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="60">
+                                 <div class="skill-info"><span class="skill-name">React/Redux</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="70">
+                                 <div class="skill-info"><span class="skill-name">Mysql/Postgresql/Mongodb</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="90">
+                                 <div class="skill-info"><span class="skill-name">Git/Gitkraken</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="90">
+                                 <div class="skill-info"><span class="skill-name">Wordpress</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Portfolio lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="portfolio">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">Showcase some of my best work</p>
+                              <h2 class="section-title">Portfolio</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Portfolio section-->
+                     <div class="portfolio-section single-section">
+                        <div class="row">
+                           <!-- Filter nav-->
+                           <div class="col-12">
+                              <ul aria-label="Filter Control" class="list-inline filter-control" role="group">
+                                 <li class="list-inline-item tab-active" data-filter="*">All</li>
+                                 <li class="list-inline-item" data-filter=".brand">Brand</li>
+                                 <li class="list-inline-item" data-filter=".design">Design</li>
+                                 <li class="list-inline-item" data-filter=".apps">Apps</li>
+                              </ul>
+                           </div>
+                        </div>
+                        <!-- Thumbnail list-->
+                        <div class="portfolio-grid row">
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 apps">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/ecommerce-mockup-1.png" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/ecommerce-mockup-1.png" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">Ecommerce app landing page</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 apps">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/ecommerce-api.png" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/ecommerce-api.png" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">Ecommerce API</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 apps">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/attendance-app.png" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/attendance-app.png" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">University attendance app</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 brand">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/seo.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/seo.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">SEO Optimization and Digital Marketing Services</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 brand">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/web-design.gif" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/web-design.gif" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">Web Application Design Services</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 brand">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/brand.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/brand.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">BRAND TIPS FOR SUCCESS</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 design">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/sketch-portofolio-1.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/sketch-portofolio-1.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">Portofolio app Sketch</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 design">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/sketch-store.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/sketch-store.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">Ecommerce app Sketch</h6>
+                                       <span class="content-more">More Info</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Blog lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="blog">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">Check out my latest blog posts</p>
+                              <h2 class="section-title">My Blog</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Blog section-->
+                     <div class="blog-section single-section">
+                        <div class="row justify-content-center">
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                              <a class="post-img" href="#0">
+                                 <img alt="Blog post" class="card-img-top" src={% static "img/python-tutorial.png" %} />
+                                 <span class="content-date">Nov 28, 2024</span>
+                              </a>
+                              <div class="card-body post-content">
+                                 <a href="#0">
+                                    <h5 class="card-title content-title">Handwritten Python Tutorial Book</h5>
+                                 </a>
+                                 <p class="card-text content-description">
+                                    Learn Python in a simple and practical way with this handwritten book, perfect for beginners and professionals.
+                                 </p>
+                              </div>
+                              </div>
+                           </div>
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                              <a class="post-img" href="#0">
+                                 <img alt="Blog post" class="card-img-top" src={% static "img/javascript-tutorial.png" %} />
+                                 <span class="content-date">Nov 28, 2024</span>
+                              </a>
+                              <div class="card-body post-content">
+                                 <a href="#0">
+                                    <h5 class="card-title content-title">Handwritten JavaScript Tutorial Book</h5>
+                                 </a>
+                                 <p class="card-text content-description">
+                                    Gain a deep understanding of JavaScript with this unique book, ideal for mastering the language of the web.
+                                 </p>
+                              </div>
+                              </div>
+                           </div>
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                              <a class="post-img" href="#0">
+                                 <img alt="Blog post" class="card-img-top" src={% static "img/design-pattern.png" %} />
+                                 <span class="content-date">Nov 28, 2024</span>
+                              </a>
+                              <div class="card-body post-content">
+                                 <a href="#0">
+                                    <h5 class="card-title content-title">The Importance of Design Patterns in Software Engineering</h5>
+                                 </a>
+                                 <p class="card-text content-description">
+                                    Discover the most essential design patterns for better and more structured coding in software engineering.
+                                 </p>
+                              </div>
+                              </div>
+                           </div>
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                              <a class="post-img" href="#0">
+                                 <img alt="Blog post" class="card-img-top" src={% static "img/ui-ux.jpg" %} />
+                                 <span class="content-date">Nov 28, 2024</span>
+                              </a>
+                              <div class="card-body post-content">
+                                 <a href="#0">
+                                    <h5 class="card-title content-title">Handwritten Principles of Design and User Experience Book</h5>
+                                 </a>
+                                 <p class="card-text content-description">
+                                    A comprehensive book to understand design principles and create unique user experiences.
+                                 </p>
+                              </div>
+                              </div>
+                           </div>                          
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                              <a class="post-img" href="#0">
+                                 <img alt="Blog post" class="card-img-top" src={% static "img/music-therapy.jpg" %} />
+                                 <span class="content-date">Nov 29, 2024</span>
+                              </a>
+                              <div class="card-body post-content">
+                                 <a href="#0">
+                                    <h5 class="card-title content-title">Music Therapy</h5>
+                                 </a>
+                                 <p class="card-text content-description">
+                                    Explore the incredible impact of music on mental well-being and physical relaxation.
+                                 </p>
+                              </div>
+                              </div>
+                           </div> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Contact lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="contact">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">Contact me for more information and support via the methods below</p>
+                              <h2 class="section-title">Communication Methods</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Contact section-->
+                     <div class="contact-section single-section">
+                        <div class="row">
+                           <!-- Contact form-->
+                           <div class="col-12 col-lg-7">
+                              <form action="{% url 'contact' %}" method="POST" class="contact-form" id="contact-form">
+                                  {% csrf_token %}
+                                  <h4 class="content-title">Message Me</h4>
+                                  <div class="row">
+                                      <div class="col-12 col-md-6 form-group">
+                                          {{ form.name }}
+                                      </div>
+                                      <div class="col-12 col-md-6 form-group">
+                                          {{ form.email }}
+                                      </div>
+                                      <div class="col-12 form-group">
+                                          {{ form.subject }}
+                                      </div>
+                                      <div class="col-12 form-group form-message">
+                                          {{ form.message }}
+                                      </div>
+                                      <div class="col-12 form-submit">
+                                          <button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
+                                          <p class="contact-feedback"></p>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                           <!-- Contact info-->
+                           <div class="col-12 col-lg-5">
+                              <div class="contact-info">
+                                 <h4 class="content-title">Contact Info</h4>
+                                 <p class="info-description">Contact me for free support and advice on your projects. </p>
+                                 <ul class="list-unstyled list-info">
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-person"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">Name</h6>
+                                             <span class="info-value">Amirreza Jabbari</span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-location"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">Place of residence</h6>
+                                             <span class="info-value">Piroozi, Tehran, Iran</span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-android-call"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">Call Me</h6>
+                                             <span class="info-value"><a href="tel:+989383327034">+98 938 33 270 34</a></span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-android-mail"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">Email Me</h6>
+                                             <span class="info-value"><a href="mailto:amirrezajabbari79@gmail.com.com">amirrezajabbari79@gmail.com</a></span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Scripts-->
+      <script>
+         document.addEventListener("DOMContentLoaded", function() {
+           const icons = [
+             "ion-android-desktop",
+             "ion-ipad",
+             "ion-iphone",
+             "ion-android-laptop"
+           ];
+           
+           const iconElement = document.querySelector(".ion-android-desktop"); // Select the initial icon
+           let currentIndex = 0;
+       
+           function changeIcon() {
+             iconElement.classList.add("fade-out"); // Add fade-out effect
+       
+             setTimeout(() => {
+               iconElement.classList.remove(icons[currentIndex]); // Remove current icon class
+               currentIndex = (currentIndex + 1) % icons.length; // Update to next icon
+               iconElement.classList.add(icons[currentIndex]); // Add new icon class
+               iconElement.classList.remove("fade-out");
+               iconElement.classList.add("fade-in"); // Add fade-in effect
+             }, 500); // Delay to allow fade-out effect
+       
+             setTimeout(() => {
+               iconElement.classList.remove("fade-in"); // Remove fade-in effect
+             }, 1000); // Delay to remove fade-in effect
+           }
+       
+           setInterval(changeIcon, 2000); // Change icon every 2 seconds
+         });
+       </script>
+      <script src={% static "js/jquery.min.js" %}></script>
+      <script src={% static "js/bootstrap.bundle.min.js" %}></script>
+      <script src={% static "js/imagesloaded.pkgd.min.js" %}></script>
+      <script src={% static "js/isotope.pkgd.min.js" %}></script>
+      <script src={% static "js/animatedModal.js" %}></script>
+      <script src={% static "js/tiny-slider.js" %}></script>
+      <script src={% static "js/lity.min.js" %}></script>
+      <script src={% static "js/simplebar.min.js" %}></script>
+      <script src={% static "js/contact.js" %}></script>
+      <script src={% static "js/main.js" %}></script>
+   </body>
+</html>

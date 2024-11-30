@@ -1,0 +1,866 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa">
+   <head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8"/>
+      <!-- Title-->
+      <title>امیررضا جباری</title>
+      <!-- Description-->
+      <meta content="Personal Portfolio Template" name="description"/>
+      <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+      <!-- Favicons-->
+      <link href={% static "img/favicons/apple-touch-icon.png" %} rel="apple-touch-icon" sizes="180x180"/>
+      <link href={% static "img/favicons/favicon-32x32.png" %} rel="icon" sizes="32x32" type="image/png"/>
+      <link href={% static "img/favicons/favicon-16x16.png" %} rel="icon" sizes="16x16" type="image/png"/>
+      <!-- Web fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet"/>
+      <!-- CSS vendors-->
+      <link href={% static "css/bootstrap-custom.css" %} rel="stylesheet"/>
+      <link href={% static "css/ionicons.min.css" %} rel="stylesheet"/>
+      <link href={% static "css/tiny-slider.css" %} rel="stylesheet"/>
+      <link href={% static "css/lity.min.css" %} rel="stylesheet"/>
+      <link href={% static "css/simplebar.min.css" %} rel="stylesheet"/>
+      <!-- Main CSS-->
+      <link href={% static "css/main.css" %} rel="stylesheet"/>
+      <!-- CSS Color scheme-->
+      <link href={% static "css/colors/main-darkgreen.css" %} id="color-scheme" rel="stylesheet"/>
+   </head>
+   <body class="theme-dark">
+      <!-- Preloader-->
+      <div class="preloader">
+         <div class="preloader-block">
+            <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+         </div>
+      </div>
+      <div id="overlay-effect"></div>
+      <!-- Navbar-->
+      <nav class="navbar-expand-md navbar fixed-top" id="navbar">
+         <a class="navbar-brand" data-scroll="" href="#home-area">
+            <!-- Navbar Logo-->
+            <img alt="Logo" class="img-fluid" src={% static "img/1.png" %}/>
+         </a>
+         <span aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-menu ml-auto" data-target="#navbarSupportedContent" data-toggle="collapse" role="button"><span class="btn-line"></span></span>
+         <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+            <!-- Navbar menu-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">درباره من</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">رزومه من</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">نمونه کارها</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">مقالات</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">ارتباط با من</a></li>
+            </ul>
+         </div>
+      </nav>
+      <!-- Home-->
+      {% comment %} <section class="home-area element-cover-bg" id="home" style="background-image:url({% static "img/home.jpg" %})"> {% endcomment %}
+      <section class="home-area element-cover-bg" id="home">
+         <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+               <div class="col-12 col-lg-8 home-content text-center">
+                  <h1 class="home-name"><span style="color: #28a745;">&lt;/&gt;</span>امیررضا جباری<span style="color: #28a745;">&lt;&gt;</span></h1>
+                  <h2 class="cd-headline clip home-headline"><span class="blinking-cursor">|</span>!سلام دنیا</h2>
+                  <h4 class="cd-headline clip home-headline" style="direction:rtl;"><span class="cd-words-wrapper single-headline"><b class="is-visible">توسعه‌دهنده فول استک</b><b>مهندسی نرم افزار</b><b>طراحی رابط کاربری و تجربه کاربری</b><b>تحلیل سئو</b><b>توسعه دهنده ی اپلیکیشن</b></span></h4>
+                  <p class="cd-paragraph" style="direction: rtl;">
+                    <span style="color: #28a745;">&lt;p&gt;</span> 🌟 توسعه‌دهنده برنامه‌های وب با تخصص در Django، DRF، React.js، و PostgreSQL، ایجاد راه‌حل‌های مقیاس‌پذیر وب و تجربیات دیجیتال قابل‌اعتماد. 🚀💻 <span style="color: #28a745;">&lt;/p&gt;</span>
+                  </p>                 
+               </div>
+            </div>
+         </div>
+         <div class="fixed-wrapper">
+            <!-- Languages list-->
+            <div class="fixed-block block-left">
+               <ul class="list-unstyled languages-list">
+                  <li><a href="/fa/"><span class="single-language">FA</span></a></li>
+                  <li><a href="/en/"><span class="single-language">EN</span></a></li>
+               </ul>
+            </div>
+            <!-- Social media icons-->
+            <div class="fixed-block block-right">
+               <ul class="list-unstyled social-icons">
+                  <li><a href="mailto:Amirrezajabbari79@gmail.com"><i class="icon ion-android-mail"></i></a></li>
+                  <li><a href="https://t.me/MehrdadJ7" target="_blank" rel="noopener noreferrer"><i class="icon ion-paper-airplane"></i></a></li>
+                  <li><a href="#0"><i class="icon ion-social-linkedin"></i></a></li>
+                  <li><a href="https://github.com/Amirreza-Jabbari" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- About lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="about">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">آشنایی بیشتر با من</p>
+                              <h2 class="section-title">درباره من</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Info section-->
+                     <div class="info-section single-section">
+                        <div class="row align-items-center" style="direction:rtl;">
+                           <!-- Picture part-->
+                           <div class="col-12 col-lg-5 info-img"><img alt="About Picture" class="img-fluid img-thumbnail" src={% static "img/software-engineer.jpg" %}/></div>
+                           <!-- Content part-->
+                           <div class="col-12 col-lg-7 info-content">
+                              <div class="content-block">
+                                <h2 class="content-subtitle">معرفی نامه:</h2>
+                                <h6 class="content-title">امیررضا جباری هستم. مهندس نرم افزار و توسعه دهنده اپلیکیشن های تحت وب</h6>
+                                 <div class="content-description">
+                                    <p>من یک فرد خلاق و پرانرژی هستم که به دنیای تکنولوژی و طراحی علاقه زیادی دارم. در دنیای پر سرعت وب، تلاش می‌کنم تا با ترکیب طراحی‌های زیبا و کاربردی، تجربه‌ای بی‌نظیر برای کاربران ایجاد کنم. همیشه به دنبال چالش‌های جدید و پروژه‌هایی هستم که می‌توانند به من کمک کنند تا مرزهای نوآوری را جابه‌جا کنم و راه‌حل‌های منحصر به فردی ارائه دهم که زندگی دیجیتال را آسان‌تر و جذاب‌تر کند.</p>
+                                 </div>
+                                 <address class="content-info">
+                                    <div class="row">
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>نام:</span>
+                                          <p>امیررضا جباری</p>
+                                       </div>
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>ایمیل:</span>
+                                          <p><a href="mailto:Amirrezajabbari79@gmail.com">Amirrezajabbari79@gmail.com</a></p>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>سن:</span>
+                                          <p>۲۴</p>
+                                       </div>
+                                       <div class="col-12 col-md-6 single-info">
+                                          <span>محل زندگی:</span>
+                                          <p>پیروزی، تهران</p>
+                                       </div>
+                                    </div>
+                                 </address>
+                                 <div class="d-block d-sm-flex align-items-center" style="direction:rtl; text-align:right;">
+                                    <a class="btn content-download button-main button-scheme" href="#0" role="button">دانلود رزومه</a>
+                                    <ul class="list-unstyled list-inline content-follow">
+                                       <li class="list-inline-item"><a href="mailto:Amirrezajabbari79@gmail.com"><i class="icon ion-android-mail"></i></a></li>
+                                       <li class="list-inline-item"><a href="https://t.me/MehrdadJ7" target="_blank" rel="noopener noreferrer"><i class="icon ion-paper-airplane"></i></a></li>
+                                       <li class="list-inline-item"><a href="#0" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-linkedin"></i></a></li>
+                                       <li class="list-inline-item"><a href="https://github.com/Amirreza-Jabbari" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Services section-->
+                     <div class="services-section single-section">
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="section-heading" style="direction:rtl; text-align:center;">
+                                  <p class="section-description">مهارت ها و سرویس های قابل ارائه به مدیران پروژه</p>
+                                  <h2 class="section-title">خدمات دیجیتال</h2>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <!-- Single service-->
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="single-service">
+                                 <i class="icon service-icon ion-social-css3"></i>
+                                 <h6 class="service-title">طراحی</h6>
+                                 <p class="service-description">از ایده تا واقعیت، طراحی‌های کاربرپسند و منحصر به فردی خلق می‌کنیم که به تجربه کاربری فوق‌العاده‌ای تبدیل می‌شوند. با رعایت اصول طراحی و توجه به جزئیات، از مرحله اسکچ تا اجرا، هر مرحله را با دقت و کیفیت بالا طی می‌کنیم.</p>
+                              </div>
+                           </div>
+                           <!-- Single service-->
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="single-service">
+                                 <i class="icon service-icon ion-images"></i>
+                                 <h6 class="service-title">تصویرسازی و گرافیک</h6>
+                                 <p class="service-description">تصاویر و گرافیک‌های جذاب که داستان برند شما را روایت می‌کنند. از طراحی لوگو گرفته تا ساخت بنرهای تبلیغاتی، هر گرافیکی که نیاز دارید، با دقت و خلاقیت بالا طراحی می‌کنیم.</p>
+                              </div>
+                           </div>
+                           <!-- Single service-->
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="single-service">
+                                 <i class="icon service-icon ion-chatboxes"></i>
+                                 <h6 class="service-title">پشتیبانی</h6>
+                                 <p class="service-description">پشتیبانی مستمر و کارآمد برای اطمینان از عملکرد بدون مشکل پروژه‌ها و خدمات دیجیتال شما. هر زمان که به کمک نیاز داشته باشید، ما آماده‌ایم تا سریعاً به نیازهای شما پاسخ دهیم.</p>
+                              </div>
+                           </div>
+                           <!-- Single service-->
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="single-service">
+                                 <i class="icon service-icon ion-code-working"></i>
+                                 <h6 class="service-title">توسعه ی وب اپلیکیشن</h6>
+                                 <p class="service-description">ساخت وب اپلیکیشن‌های قدرتمند و مقیاس‌پذیر که نیازهای خاص کسب و کار شما را برآورده می‌کند. از توسعه سمت کاربر تا سرور، ما راه‌حل‌هایی پایدار و بهینه برای شما ایجاد می‌کنیم.</p>
+                              </div>
+                           </div>
+                           <!-- Single service-->
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="single-service">
+                                 <i class="icon service-icon ion-android-desktop"></i>
+                                 <h6 class="service-title">طراحی واکنش گرا</h6>
+                                 <p class="service-description">طراحی سایت‌های واکنش‌گرا که در تمامی دستگاه‌ها و اندازه‌های صفحه نمایش به بهترین نحو ممکن نمایش داده می‌شوند. اطمینان حاصل می‌کنیم که تجربه کاربری در موبایل، تبلت و دسکتاپ به یکسان عالی باشد.</p>
+                              </div>
+                           </div>
+                           <!-- Single service-->
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="single-service">
+                                 <i class="icon service-icon ion-search"></i>
+                                 <h6 class="service-title">(سئو)بازاریابی موتورهای جستجو</h6>
+                                 <p class="service-description">افزایش رتبه سایت شما در موتورهای جستجو با استراتژی‌های بهینه‌سازی حرفه‌ای. ما به شما کمک می‌کنیم تا در نتایج جستجو دیده شوید و ترافیک هدفمند جذب کنید.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Testimonials section-->
+                     <div class="testimonials-section single-section">
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="section-heading" style="direction:rtl; text-align:center;">
+                                <p class="section-description">نظرات کارفرماها و مدیر پروژه ها</p>
+                                <h2 class="section-title">رضایت نامه ها</h2>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="my-slider">
+                           <div class="slider-item">
+                              <!-- Single review-->
+                              <div class="single-review swiper-slide">
+                                 <div class="review-header d-flex justify-content-between">
+                                    <div class="review-client">
+                                       <div class="media">
+                                          <img alt="Client" class="img-fluid rounded-circle client-avatar" src= {% static "img/client-1.jpg" %}/>
+                                          <div class="client-details">
+                                             <h6 class="client-name">محبوبه شمسی</h6>
+                                             <span class="client-role">استاد راهنما</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <i class="icon ion-md-quote review-icon"></i>
+                                 </div>
+                                 <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <!-- Single review-->
+                              <div class="single-review swiper-slide">
+                                 <div class="review-header d-flex justify-content-between">
+                                    <div class="review-client">
+                                       <div class="media">
+                                          <img alt="Client" class="img-fluid rounded-circle client-avatar" src= {% static "img/client-2.jpg" %}/>
+                                          <div class="client-details">
+                                             <h6 class="client-name">مهران نظری</h6>
+                                             <span class="client-role">کارآفرین</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <i class="icon ion-md-quote review-icon"></i>
+                                 </div>
+                                 <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <!-- Single review-->
+                              <div class="single-review swiper-slide">
+                                 <div class="review-header d-flex justify-content-between">
+                                    <div class="review-client">
+                                       <div class="media">
+                                          <img alt="Client" class="img-fluid rounded-circle client-avatar" src= {% static "img/client-3.jpg" %}/>
+                                          <div class="client-details">
+                                             <h6 class="client-name">سروش قادری</h6>
+                                             <span class="client-role">تولید کننده پوشاک</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <i class="icon ion-md-quote review-icon"></i>
+                                 </div>
+                                 <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Resume lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="resume">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content" style="direction:rtl;">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">رزومه تخصصی من</p>
+                              <h2 class="section-title">رزومه من</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Resume section-->
+                     <div class="resume-section single-section">
+                        <div class="row">
+                           <!-- Education part-->
+                           <div class="col-12 col-md-6">
+                              <div class="col-block education">
+                                 <h3 class="col-title">تحصیلات:</h3>
+                                 
+                                 <div class="resume-item">
+                                   <span class="item-arrow"></span>
+                                   <h5 class="item-title">کارشناسی مهندسی کامپیوتر</h5>
+                                   <span class="item-details">دانشگاه صنعتی قم / 1398 - 1403</span>
+                                   <p class="item-description">
+                                     در دوره کارشناسی مهندسی کامپیوتر، مفاهیم پایه و پیشرفته برنامه‌نویسی، شبکه هوش مصنوعی و طراحی سیستم‌ها را آموخته‌ام. 
+                                     این تجربه، دانش عمیقی از علوم کامپیوتر و مهارت‌های فنی مورد نیاز برای پروژه‌های بزرگ را در اختیارم قرار داد.
+                                   </p>
+                                 </div>
+                                 
+                                 <div class="resume-item">
+                                   <span class="item-arrow"></span>
+                                   <h5 class="item-title">دیپلم زبان انگلیسی</h5>
+                                   <span class="item-details">موسسه زبان دانش / 1392 - 1398</span>
+                                   <p class="item-description">
+                                     با گذراندن دوره دیپلم زبان انگلیسی، مهارت‌های ارتباطی و زبانی خود را به سطح پیشرفته ارتقا داده‌ام.
+                                     این دوره، پایه‌ای قوی در مکالمه و درک زبان انگلیسی ایجاد کرد که به‌ویژه در محیط‌های کاری بین‌المللی مفید است.
+                                   </p>
+                                 </div>
+                               </div>                               
+                              <div class="col-block education" style="margin-top: 20px;">
+                                 <h3 class="col-title">برترین های مخزن گیت هاب:</h3>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">ابزار SEO Analyzer</h5>
+                                    <span class="item-details"><a href="https://github.com/Amirreza-Jabbari/SEOAnalyzer" target="_blank" rel="noopener noreferrer">لینک دسترسی به پروژه</a></span>
+                                    <p class="item-description">کلاس SEOAnalyzer مجموعه ای جامع از ابزارها را برای تجزیه و تحلیل و بهینه سازی معیارهای سئوی وب سایت ارائه می دهد. بر جنبه‌های مختلف سئو، از جمله سرعت صفحه، کیفیت محتوا، یکپارچگی پیوند و حضور در رسانه‌های اجتماعی تمرکز دارد. طراحی و توسعه به زبان پایتون.</p>
+                                 </div>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">ابزار DNS Changer</h5>
+                                    <span class="item-details">
+                                        <a href="https://github.com/Amirreza-Jabbari/dns-changer" target="_blank" rel="noopener noreferrer">لینک دسترسی به پروژه</a>
+                                    </span>
+                                    <p class="item-description">
+                                        ابزار DNS Changer یک برنامه گرافیکی ساده با استفاده از کتابخانه Tkinter در زبان پایتون است که به کاربر اجازه می‌دهد تنظیمات DNS سیستم خود را به راحتی تغییر دهد. این برنامه چندین گزینه DNS را از پیش تعریف کرده و کاربر می‌تواند از طریق منوی کشویی، DNS دلخواه خود را انتخاب و به شبکه متصل شود. گزینه‌های ON و OFF برای فعال و غیرفعال کردن DNS تعریف شده‌اند. همچنین دکمه‌ای برای دسترسی سریع به صفحه GitHub سازنده (Amirreza Jabbari) در برنامه تعبیه شده است. این ابزار از طریق دستورات netsh در ویندوز، تغییرات را به طور مستقیم روی اتصالات شبکه اعمال می‌کند.
+                                    </p>
+                                </div>                                
+                                <div class="resume-item">
+                                 <span class="item-arrow"></span>
+                                 <h5 class="item-title">تبدیل گفتار به نوشتار</h5>
+                                 <span class="item-details">
+                                     <a href="https://github.com/Amirreza-Jabbari/en-fa-speech-recognition" target="_blank" rel="noopener noreferrer">لینک دسترسی به پروژه</a>
+                                 </span>
+                                 <p class="item-description">
+                                     این پروژه یک ابزار تبدیل گفتار به نوشتار است که با استفاده از JavaScript و قابلیت‌های Web Speech API پیاده‌سازی شده است. کاربر می‌تواند زبان مورد نظر خود (انگلیسی یا فارسی) را انتخاب کرده و با فشردن دکمه مربوطه شروع به صحبت کند. برنامه، گفتار را به متن تبدیل کرده و آن را به صورت لحظه‌ای نمایش می‌دهد.
+                                 </p>
+                                 </div>                                                          
+                              </div>
+                           </div>
+                           <!-- Experience part-->
+                           <div class="col-12 col-md-6">
+                              <div class="col-block experience">
+                                 <h3 class="col-title">تجربیات</h3>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">کسب مقام اول جشنواره خوارزمی</h5>
+                                    <span class="item-details">جشنواره خوارزمی / 1394 - 1397</span>
+                                    <p class="item-description">کسب سه دوره مقام اول استان تهران در جشنواره خوارزمی با عنوان درس افزار نهم، درس افزار دهم و درس افزار یازدهم. پروژه ی برنامه نویسی دسکتاپ به زبان پاسکال</p>
+                                 </div>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">بوت کمپ وردپرس</h5>
+                                    <span class="item-details">چکاوک شهر / تابستان 1402</span>
+                                    <p class="item-description">آموزش تخصصی وردپرس و طراحی سایت با المنتور و ووکامرس با مدرک معتبر آموزشگاه</p>
+                                 </div>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">بوت کمپ سئو</h5>
+                                    <span class="item-details">چکاوک شهر / تابستان 1402</span>
+                                    <p class="item-description">آموزش تخصصی بازاریابی موتور های جستجو و سئو تکنیکال با مدرک معتبر آموزشگاه</p>
+                                 </div>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">بوت کمپ بک اند جنگو</h5>
+                                    <span class="item-details">سجایا پلاس / تابستان 1403</span>
+                                    <p class="item-description">آموزش تخصصی فریم ورک جنگو و DRF به صورت پروژه محور و مدرک دانشگاه علم و صنعت</p>
+                                 </div>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">سامانه حضور و غیاب دانشگاه</h5>
+                                    <span class="item-details">دانشگاه صنعتی قم / پاییز 1403</span>
+                                    <p class="item-description">طراحی و پیاده سازی پروژه اتوماسیون حضور و غیاب دانشجویان و اساتید به عنوان پروژه پایانی با استک جنگو، بوت استرپ، جی کوئری و mysql</p>
+                                 </div>
+                                 <div class="resume-item">
+                                    <span class="item-arrow"></span>
+                                    <h5 class="item-title">طراحی و توسعه سایت فروشگاهی <a href="https://mehranstone8.ir" target="_blank" rel="noopener noreferrer">سنگ مهران</a></h5>
+                                    <span class="item-details">پروژه آزاد / پاییز 1403</span>
+                                    <p class="item-description">طراحی و توسعه پروژه ی وبسایت فروشگاهی با استک جنگو، DRF API, بوت استرپ، جی کوئری و postgresql به صورت صفر تا صد</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Skills section-->
+                     <div class="skills-section single-section">
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="section-heading" style="direction:rtl; text-align:center;">
+                                 <p class="section-description">سطح دانش من در برخی ابزارها و کتابخانه ها</p>
+                                 <h2 class="section-title">مهارت های من:</h2>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12 col-md-6">
+                              <div class="single-skill" data-percentage="95">
+                                 <div class="skill-info"><span class="skill-name">HTML/CSS</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="90">
+                                 <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="70">
+                                 <div class="skill-info"><span class="skill-name">TypeScript</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="85">
+                                 <div class="skill-info"><span class="skill-name">Django/Django Rest API</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="85">
+                                 <div class="skill-info"><span class="skill-name">XML/JSON/Postman</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="85">
+                                 <div class="skill-info"><span class="skill-name">Web Design/Ui-Ux/SEO</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6">
+                              <div class="single-skill" data-percentage="70">
+                                 <div class="skill-info"><span class="skill-name">Tailwind/sass</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="80">
+                                 <div class="skill-info"><span class="skill-name">bootstrap/JQuery</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="60">
+                                 <div class="skill-info"><span class="skill-name">React/Redux</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="70">
+                                 <div class="skill-info"><span class="skill-name">Mysql/Postgresql/Mongodb</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="90">
+                                 <div class="skill-info"><span class="skill-name">Git/Gitkraken</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                              <div class="single-skill" data-percentage="90">
+                                 <div class="skill-info"><span class="skill-name">Wordpress</span><span class="skill-percentage"></span></div>
+                                 <div class="progress skill-progress">
+                                    <div aria-valuemax="100" aria-valuemin="0" class="progress-bar" role="progressbar"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Portfolio lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="portfolio">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">نمایش برخی از بهترین کارهای من</p>
+                              <h2 class="section-title">نمونه کارها</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Portfolio section-->
+                     <div class="portfolio-section single-section">
+                        <div class="row">
+                           <!-- Filter nav-->
+                           <div class="col-12">
+                              <ul aria-label="Filter Control" class="list-inline filter-control" role="group">
+                                 <li class="list-inline-item tab-active" data-filter="*">همه</li>
+                                 <li class="list-inline-item" data-filter=".brand">برند</li>
+                                 <li class="list-inline-item" data-filter=".design">طراحی</li>
+                                 <li class="list-inline-item" data-filter=".apps">اپلیکیشن‌ها</li>
+                              </ul>
+                           </div>
+                        </div>
+                        <!-- Thumbnail list-->
+                        <div class="portfolio-grid row">
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 apps">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/ecommerce-mockup-1.png" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/ecommerce-mockup-1.png" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">اپلیکیشن فروشگاهی</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 apps">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/ecommerce-api.png" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/ecommerce-api.png" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">سیستم API فروشگاه</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 apps">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/attendance-app.png" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/attendance-app.png" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">سامانه حضور و غیاب دانشگاه</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 brand">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/seo.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/seo.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">بهینه سازی سئو و خدمات دیجیتال مارکتینگ</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 brand">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/web-design.gif" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/web-design.gif" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">خدمات طراحی اپلیکیشن وب</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 brand">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/brand.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/brand.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">نکات برندینگ برای موفقیت</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 design">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/sketch-portofolio-1.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/sketch-portofolio-1.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">طرح اپلیکیشن رزومه</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <!-- Single item-->
+                           <div class="single-item col-6 col-lg-4 design">
+                              <a class="portfolio-item" data-lightbox="" href={% static "img/sketch-store.jpg" %}>
+                                 <div class="portfolio-wrapper">
+                                    <img alt="Item" class="img-fluid" src={% static "img/sketch-store.jpg" %}/>
+                                    <div class="item-content">
+                                       <h6 class="content-title">طرح اپلیکیشن فروشگاه</h6>
+                                       <span class="content-more">اطلاعات بیشتر</span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Blog lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="blog">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description">آخرین پست های وبلاگ من را ببینید</p>
+                              <h2 class="section-title">مقالات من</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Blog section-->
+                     <div class="blog-section single-section">
+                        <div class="row justify-content-center" style="direction:rtl;">
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                                 <a class="post-img" href="#0"><img alt="Blog post" class="card-img-top" src={% static "img/python-tutorial.png" %}/><span class="content-date">8 آذر 1403</span></a>
+                                 <div class="card-body post-content">
+                                    <a href="#0">
+                                       <h5 class="card-title content-title">کتاب دست نویس آموزش پایتون</h5>
+                                    </a>
+                                    <p class="card-text content-description">یادگیری پایتون به روشی ساده و کاربردی با این کتاب دست‌نویس، مناسب برای مبتدیان و حرفه‌ای‌ها.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                                 <a class="post-img" href="#0"><img alt="Blog post" class="card-img-top" src={% static "img/javascript-tutorial.png" %}/><span class="content-date">8 آذر 1403</span></a>
+                                 <div class="card-body post-content">
+                                    <a href="#0">
+                                       <h5 class="card-title content-title">کتاب دست نویس آموزش جاوا اسکریپت</h5>
+                                    </a>
+                                    <p class="card-text content-description">درک عمیق جاوا اسکریپت با این کتاب منحصربه‌فرد، مناسب برای تسلط بر زبان وب.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                                 <a class="post-img" href="#0"><img alt="Blog post" class="card-img-top" src={% static "img/design-pattern.png" %}/><span class="content-date">8 آذر 1403</span></a>
+                                 <div class="card-body post-content">
+                                    <a href="#0">
+                                       <h5 class="card-title content-title">اهمیت الگوهای طراحی در مهندسی نرم افزار</h5>
+                                    </a>
+                                    <p class="card-text content-description">کشف اصولی‌ترین الگوهای طراحی برای کدنویسی بهتر و ساختارمند در مهندسی نرم‌افزار.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                                 <a class="post-img" href="#0"><img alt="Blog post" class="card-img-top" src={% static "img/ui-ux.png" %} /><span class="content-date">8 آذر 1403</span></a>
+                                 <div class="card-body post-content">
+                                    <a href="#0">
+                                       <h5 class="card-title content-title">کتاب دست نویس اصول طراحی و تجربه کاربری</h5>
+                                    </a>
+                                    <p class="card-text content-description">کتابی جامع برای درک اصول طراحی و خلق تجربه‌های کاربری منحصر‌به‌فرد.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Single post-->
+                           <div class="col-12 col-sm-8 col-lg-4">
+                              <div class="card single-post">
+                                 <a class="post-img" href="#0"><img alt="Blog post" class="card-img-top" src={% static "img/music-therapy.jpg" %}/><span class="content-date">9 آذر 1403</span></a>
+                                 <div class="card-body post-content">
+                                    <a href="#0">
+                                       <h5 class="card-title content-title">موسیقی درمانی</h5>
+                                    </a>
+                                    <p class="card-text content-description">تأثیر شگفت‌انگیز موسیقی در بهبود سلامت روان و آرامش جسمی را کشف کنید.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Contact lightbox-->
+      <div class="lightbox-wrapper" data-simplebar="" id="contact">
+         <div class="container">
+            <div class="lightbox-close">
+               <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="lightbox-content">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="section-heading page-heading">
+                              <p class="section-description" style="direction: rtl;">با من از طریق روش‌های زیر برای دریافت اطلاعات بیشتر و پشتیبانی تماس بگیرید.</p><h2 class="section-title">راه های ارتباطی</h2>
+                              <div class="animated-bar"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Contact section-->
+                     <div class="contact-section single-section">
+                        <div class="row">
+                           <!-- Contact form-->
+                           <div class="col-12 col-lg-7">
+                              <form action="{% url 'contact' %}" method="POST" class="contact-form" id="contact-form">
+                                  {% csrf_token %}
+                                  <h4 class="content-title">ارسال پیام</h4>
+                                  <div class="row">
+                                      <div class="col-12 col-md-6 form-group">
+                                          {{ form.name }}
+                                      </div>
+                                      <div class="col-12 col-md-6 form-group">
+                                          {{ form.email }}
+                                      </div>
+                                      <div class="col-12 form-group">
+                                          {{ form.subject }}
+                                      </div>
+                                      <div class="col-12 form-group form-message">
+                                          {{ form.message }}
+                                      </div>
+                                      <div class="col-12 form-submit">
+                                          <button class="btn button-main button-scheme" id="contact-submit" type="submit">ارسال پیام</button>
+                                          <p class="contact-feedback"></p>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                           <!-- Contact info-->
+                           <div class="col-12 col-lg-5">
+                              <div class="contact-info">
+                                 <h4 class="content-title">ارتباط با من</h4>
+                                 <p class="info-description">جهت دریافت پشتیبانی و مشاوره رایگان پروژه های خود با من تماس بگیرید. </p>
+                                 <ul class="list-unstyled list-info">
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-person"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">نام</h6>
+                                             <span class="info-value">امیررضا جباری</span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-location"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">محل سکونت</h6>
+                                             <span class="info-value">تهران، پیروزی</span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-android-call"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">شماره تماس</h6>
+                                             <span class="info-value"><a href="tel:+989383327034">+98 938 33 270 34</a></span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="media align-items-center">
+                                          <span class="info-icon"><i class="icon ion-android-mail"></i></span>
+                                          <div class="media-body info-details">
+                                             <h6 class="info-type">آدرس ایمیل</h6>
+                                             <span class="info-value"><a href="mailto:amirrezajabbari79@gmail.com.com">amirrezajabbari79@gmail.com</a></span>
+                                          </div>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Scripts-->
+      <script>
+         document.addEventListener("DOMContentLoaded", function() {
+           const icons = [
+             "ion-android-desktop",
+             "ion-ipad",
+             "ion-iphone",
+             "ion-android-laptop"
+           ];
+           
+           const iconElement = document.querySelector(".ion-android-desktop"); // Select the initial icon
+           let currentIndex = 0;
+       
+           function changeIcon() {
+             iconElement.classList.add("fade-out"); // Add fade-out effect
+       
+             setTimeout(() => {
+               iconElement.classList.remove(icons[currentIndex]); // Remove current icon class
+               currentIndex = (currentIndex + 1) % icons.length; // Update to next icon
+               iconElement.classList.add(icons[currentIndex]); // Add new icon class
+               iconElement.classList.remove("fade-out");
+               iconElement.classList.add("fade-in"); // Add fade-in effect
+             }, 500); // Delay to allow fade-out effect
+       
+             setTimeout(() => {
+               iconElement.classList.remove("fade-in"); // Remove fade-in effect
+             }, 1000); // Delay to remove fade-in effect
+           }
+       
+           setInterval(changeIcon, 2000); // Change icon every 2 seconds
+         });
+       </script>
+      <script src={% static "js/jquery.min.js" %}></script>
+      <script src={% static "js/bootstrap.bundle.min.js" %}></script>
+      <script src={% static "js/imagesloaded.pkgd.min.js" %}></script>
+      <script src={% static "js/isotope.pkgd.min.js" %}></script>
+      <script src={% static "js/animatedModal.js" %}></script>
+      <script src={% static "js/tiny-slider.js" %}></script>
+      <script src={% static "js/lity.min.js" %}></script>
+      <script src={% static "js/simplebar.min.js" %}></script>
+      <script src={% static "js/facontact.js" %}></script>
+      <script src={% static "js/main.js" %}></script>
+   </body>
+</html>
