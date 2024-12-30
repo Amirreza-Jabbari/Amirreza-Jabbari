@@ -1,5 +1,5 @@
 # 💫 About Me:
-🌟 Web application dev skilled in Django, DRF, React.js, and postgresql, creating scalable web solutions and reliable digital experiences. 🚀💻
+🌟 Web application dev skilled in Django, DRF, javaScript, and postgresql, creating scalable web solutions and reliable digital experiences. 🚀💻
 
 
 # 💻 Tech Stack:
