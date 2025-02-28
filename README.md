@@ -7,6 +7,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Amirreza-jabbari&theme=aura_dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Amirreza-jabbari&theme=aura_dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
+# 📊 roadmap stats:
+[![roadmap.sh](https://roadmap.sh/card/wide/67b9ef44a8c88d6e35fc3187?variant=dark)](https://roadmap.sh)
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Amirreza-jabbari&theme=aura_dark&no-frame=false&no-bg=false&margin-w=4)
